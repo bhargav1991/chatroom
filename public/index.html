@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>ChatRoom</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <div class="chatbox grey lighten-5 ">
+                        <div id="dialog" class=" chatdialog">
+                            
+                        </div>
+                        <div id="typing">
+
+                        </div>
+                        <div class="chatinput">
+                            <input id="username" type="text" placeholder="username">
+                            <input id="message" type="text" placeholder="message">
+                        </div>
+                        
+                        <div>
+                            <a id="send" class="center-align btn btn-info ">SEND</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.dev.js"></script>
+        <script src="/js/chat.js"></script>
+    </body>
+</html>

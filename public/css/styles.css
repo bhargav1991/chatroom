@@ -1,0 +1,23 @@
+.chatbox{
+    padding: 10px;
+    height: 500px;
+}
+.chatdialog{
+    height: 300px;
+    padding: 5px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.pop{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    clear: both;
+    background: white;
+}
+.chatinput{
+    padding: 10px;
+}
+.dialog{
+    background: ghostwhite;
+}
